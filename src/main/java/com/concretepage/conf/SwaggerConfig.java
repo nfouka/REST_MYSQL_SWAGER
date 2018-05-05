@@ -1,12 +1,9 @@
 package com.concretepage.conf;
 
-
-
 import java.util.Collections;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -27,6 +24,17 @@ public class SwaggerConfig {
                 .paths(PathSelectors.ant("/user/**"))
                 .build();
     }
+    
+  
+    
+    /*
+     * 
+     * 
+     * 
+     * simple test 
+     */
+    
+    
     
     private ApiInfo apiInfo() {
         return new ApiInfo(
