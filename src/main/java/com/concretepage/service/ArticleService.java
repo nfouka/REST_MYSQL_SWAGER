@@ -7,6 +7,9 @@ import org.springframework.stereotype.Service;
 
 import com.concretepage.dao.IArticleDAO;
 import com.concretepage.entity.Article;
+
+import springfox.documentation.builders.ApiInfoBuilder;
+import springfox.documentation.service.ApiInfo;
 @Service
 public class ArticleService implements IArticleService {
 	@Autowired
@@ -37,4 +40,12 @@ public class ArticleService implements IArticleService {
 	public void deleteArticle(int articleId) {
 		articleDAO.deleteArticle(articleId);
 	}
+	
+    private ApiInfo metadata2() {
+        return new ApiInfoBuilder()
+                .title( "My awesome ACS API" )
+                .description( "All the requests that the server will respond to." )
+                .version( "1.0.0" )
+                .build();
+    }
 }
