@@ -48,6 +48,16 @@ public class SwaggerConfig {
           "License of API", "API license URL", Collections.emptyList());
    }
     
+    private ApiInfo metadata2() {
+        return new ApiInfoBuilder()
+                .title( "My awesome ACS API" )
+                .description( "All the requests that the server will respond to." )
+                .version( "1.0.0" )
+                .build();
+    }
+    
+    
+    
 
     private ApiInfo metadata() {
         return new ApiInfoBuilder()
