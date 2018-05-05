@@ -10,6 +10,8 @@ import javax.persistence.Table;
 
 
 
+
+
 @Entity
 @Table(name="articles")
 public class Article implements Serializable { 
