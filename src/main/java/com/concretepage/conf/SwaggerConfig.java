@@ -56,6 +56,13 @@ public class SwaggerConfig {
                 .build();
     }
     
+    private ApiInfo metadata3() {
+        return new ApiInfoBuilder()
+                .title( "My awesome ACS API" )
+                .description( "All the requests that the server will respond to." )
+                .version( "1.0.0" )
+                .build();
+    }
     
     
 
