@@ -24,5 +24,8 @@ public class HelloWorld {
 		return "HelloWorld [getClass()=" + getClass() + ", hashCode()="
 				+ hashCode() + ", toString()=" + super.toString() + "]";
 	}
+	
+	
+	
 
 }
