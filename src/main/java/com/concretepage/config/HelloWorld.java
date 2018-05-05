@@ -8,8 +8,19 @@ import com.concretepage.service.IArticleService;
 public class HelloWorld {
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	@Autowired
 	private IArticleService articleService;
+	
+	@Autowired
+	private IArticleService articleService_u;
 
 	@Override
 	public String toString() {
@@ -24,8 +35,23 @@ public class HelloWorld {
 		return "HelloWorld [getClass()=" + getClass() + ", hashCode()="
 				+ hashCode() + ", toString()=" + super.toString() + "]";
 	}
+		
 	
 	
 	
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
