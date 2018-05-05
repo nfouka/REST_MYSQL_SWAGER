@@ -10,5 +10,7 @@ public interface IArticleDAO {
     boolean articleExists(String title, String category);
     
     
+    
+    
 }
  
