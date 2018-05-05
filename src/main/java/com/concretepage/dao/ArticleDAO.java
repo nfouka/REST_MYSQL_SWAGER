@@ -10,6 +10,9 @@ import org.springframework.transaction.annotation.Transactional;
 import com.concretepage.entity.Article;
 @Transactional
 @Repository
+
+
+
 public class ArticleDAO implements IArticleDAO {
 	@PersistenceContext	
 	private EntityManager entityManager;	

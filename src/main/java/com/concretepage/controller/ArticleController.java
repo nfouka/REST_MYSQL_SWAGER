@@ -27,13 +27,6 @@ import io.swagger.annotations.ApiOperation;
 @Api(tags="api")
 
 
-
-
-
-
-
-
-
 @Controller
 @RequestMapping("user")
 public class ArticleController {
