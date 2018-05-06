@@ -9,8 +9,5 @@ public interface IArticleDAO {
     void deleteArticle(int articleId);
     boolean articleExists(String title, String category);
     
-    
-    
-    
 }
  
