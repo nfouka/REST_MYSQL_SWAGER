@@ -73,8 +73,6 @@ public class SwaggerConfig {
                 .build();
     }
     
-    
-    
     @Bean
     public Docket orderApi() {
 
